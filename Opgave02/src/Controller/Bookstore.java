@@ -14,6 +14,7 @@ public class Bookstore {
         basket.addDiscount(new Discount("25 kr rabat på beløb over 500 kr.", 0, -25, 500, DiscountType.FIXED));
         basket.addDiscount(new Discount("50 kr rabat på beløb over 1000 kr.", 0,-50, 1000, DiscountType.FIXED));
         basket.printTotal();
+        //hej
 
     }
 }
